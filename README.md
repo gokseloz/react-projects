@@ -7,3 +7,4 @@
 |  #  | Project | Live Demo |
 | --- | ------- | --------- |
 | 01  | [Birthday Reminder](https://github.com/gokseloz/react-projects/tree/master/01-birthday-reminder)  | [Live Demo](https://gokseloz-reactproject1.netlify.app/)|
+| 02  | [Tours](https://github.com/gokseloz/react-projects/tree/master/02-Tours)  | [Live Demo](https://gokseloz-reactproject2.netlify.app/)|
