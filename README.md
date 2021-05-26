@@ -11,6 +11,8 @@
 | 03  | [Reviews](https://github.com/gokseloz/react-projects/tree/master/03-reviews)  | [Live Demo](https://gokseloz-reactproject3.netlify.app/)|
 | 04  | [Accordion](https://github.com/gokseloz/react-projects/tree/master/04-Accordion)  | [Live Demo](https://gokseloz-reactproject4.netlify.app/)|
 | 05  | [Menu](https://github.com/gokseloz/react-projects/tree/master/05-Menu)  | [Live Demo](https://gokseloz-reactproject5.netlify.app/)|
+| 06  | [Tabs](https://github.com/gokseloz/react-projects/tree/master/06-Tabs)  | [Live Demo](https://gokseloz-reactproject6.netlify.app/)|
+
 
 
 
