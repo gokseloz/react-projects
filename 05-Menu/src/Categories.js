@@ -1,8 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
 
 const Categories = ({ items, filterItems }) => {
   let allCategory = items.map((item) => item.category);
   let categories = ["All", ...new Set(allCategory)];
+
+  const [value, setValue] = useState(0)
 
   return (
     <div className="btn-container">
@@ -14,8 +16,9 @@ const Categories = ({ items, filterItems }) => {
             type="button"
             onClick={() => {
               filterItems(category);
+              setValue(index)
             }}
-            className="filter-btn"
+            className={`filter-btn ${index === value && "active-btn"}`}
           >
             {category}
           </button>

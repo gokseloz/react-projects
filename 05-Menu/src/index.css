@@ -179,6 +179,12 @@ Menu
   background: var(--clr-gold);
   color: var(--clr-white);
 }
+
+.active-btn{
+  background: var(--clr-gold);
+  color: var(--clr-white);
+}
+
 .section-center {
   width: 90vw;
   margin: 0 auto;
@@ -192,6 +198,8 @@ Menu
   gap: 1rem 2rem;
   max-width: 25rem;
 }
+
+
 .photo {
   object-fit: cover;
   height: 200px;
