@@ -2,8 +2,10 @@
 
 ## Extra Added
 - Dots to control the slide
+- AutoPlay on off button
 
-![Slider-Setup](https://user-images.githubusercontent.com/72968539/119694187-4b4c8f80-be4d-11eb-82f3-dac99980d3eb.png)
+![Slider-Setup](https://user-images.githubusercontent.com/72968539/119822718-40990580-bef4-11eb-9235-57fc8ecc4c4f.png)
+
 
 
 
