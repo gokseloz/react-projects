@@ -1,11 +1,12 @@
 import React, { useState, useEffect } from "react";
 import { FiChevronRight, FiChevronLeft } from "react-icons/fi";
-import { FaQuoteRight } from "react-icons/fa";
+import { FaQuoteRight, FaPlayCircle, FaPauseCircle } from "react-icons/fa";
 import data from "./data";
 
 function App() {
   const [people, setPeople] = useState(data);
   const [index, setIndex] = useState(0);
+  const [value, setValue] = useState(true);
 
   function prevPerson() {
     setIndex(index === 0 ? people.length - 1 : index - 1);
@@ -30,17 +31,25 @@ To use this, uncomment the onclick function of prev and next buttons down below
   })
 */
 
-  // ===========
-  // Auto Slide
-  // ===========
+  // =======================
+  // Auto Slide Controlling
+  // =======================
   useEffect(() => {
-    let slider = setInterval(() => {
-      setIndex(index === people.length - 1 ? 0 : index + 1);
-    }, 3000);
-    return () => {
-      clearInterval(slider);
-    };
-  }, [index]);
+    if (value) {
+      let slider = setInterval(() => {
+        setIndex(index === people.length - 1 ? 0 : index + 1);
+      }, 2000);
+      return () => {
+        clearInterval(slider);
+      };
+    }
+  }, [index, value]);
+
+  useEffect(() => {
+    if (value === false) {
+      return;
+    }
+  }, [index, value]);
 
   // =======================
   // Control slide with dots
@@ -92,16 +101,21 @@ To use this, uncomment the onclick function of prev and next buttons down below
           <FiChevronRight />
         </button>
       </div>
-      <div className="dotWrapper">
-        {people.map((person, dotIndex) => {
-          return (
-            <span
-              key={dotIndex}
-              onClick={() => dotClick(dotIndex)}
-              className={`dot ${index === dotIndex && "selected"}`}
-            ></span>
-          );
-        })}
+      <div className="controls">
+        <div className="autoPlayBtn" onClick={() => setValue(!value)}>
+          {value ? <FaPauseCircle /> : <FaPlayCircle />}
+        </div>
+        <div className="dotWrapper">
+          {people.map((person, dotIndex) => {
+            return (
+              <span
+                key={dotIndex}
+                onClick={() => dotClick(dotIndex)}
+                className={`dot ${index === dotIndex && "selected"}`}
+              ></span>
+            );
+          })}
+        </div>
       </div>
     </section>
   );
