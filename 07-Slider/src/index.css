@@ -154,7 +154,7 @@ Slider
 }
 .section-center {
   margin: 0 auto;
-  margin-top: 4rem;
+  margin-top: 2rem;
   width: 80vw;
   /* have to have a height */
   height: 450px;
@@ -253,9 +253,17 @@ article.nextSlide {
   transform: translateX(100%);
 }
 
+.control{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .dotWrapper{
   display: flex;
   justify-content: center;
+  margin: .5rem 0;
 }
 
 .dot{
@@ -266,7 +274,15 @@ article.nextSlide {
   margin: .3rem;
   cursor: pointer;
 }
+.autoPlayBtn{
+  display: flex;
+  justify-content: center;
+  font-size: 1.7rem;
+  margin: 0 0 1rem 0;
+}
 
 .selected{
   background-color: #222;
 }
+
+
