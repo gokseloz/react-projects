@@ -14,3 +14,4 @@
 | 05  | [Menu](https://github.com/gokseloz/react-projects/tree/master/05-Menu)                           | [Live Demo](https://gokseloz-reactproject5.netlify.app/) |
 | 06  | [Tabs](https://github.com/gokseloz/react-projects/tree/master/06-Tabs)                           | [Live Demo](https://gokseloz-reactproject6.netlify.app/) |
 | 07  | [Slider](https://github.com/gokseloz/react-projects/tree/master/07-Slider)                       | [Live Demo](https://gokseloz-reactproject7.netlify.app/) |
+| 08  | [Paragraph Generator](https://github.com/gokseloz/react-projects/tree/master/08-paragraph-generator) | [Live Demo](https://gokseloz-reactproject8.netlify.app/) |
