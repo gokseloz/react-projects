@@ -1,0 +1,9 @@
+export { default as Connect } from "./Connect";
+export { default as Payment } from "./Payment";
+export { default as Terminal } from "./Terminal";
+export { default as About } from "./About";
+export { default as Billing } from "./Billing";
+export { default as Customers } from "./Customers";
+export { default as Help } from "./Help";
+export { default as Libraries } from "./Libraries";
+export { default as Plugins } from "./Plugins";
