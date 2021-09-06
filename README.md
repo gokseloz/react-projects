@@ -24,8 +24,3 @@
 
 
 
-
-https://gokseloz-reactproject13.netlify.app/
-
-
-
