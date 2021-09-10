@@ -21,6 +21,6 @@
 | 12  | [Sidebar_Modal](https://github.com/gokseloz/react-projects/tree/master/12-Sidebar_modal) | [Live Demo](https://gokseloz-reactproject12.netlify.app/)  |
 | 13  | [Stripe Submenus](https://github.com/gokseloz/react-projects/tree/master/13-stripe-submenus) | [Live Demo](https://gokseloz-reactproject13.netlify.app/)  |
 | 14  | [Cart](https://github.com/gokseloz/react-projects/tree/master/14-cart) | [Live Demo](https://gokseloz-reactproject14.netlify.app)  |
-
+| 15  | [Cocktails](https://github.com/gokseloz/react-projects/tree/master/15-cocktails) | [Live Demo](https://gokseloz-reactproject15.netlify.app/)  |
 
 
