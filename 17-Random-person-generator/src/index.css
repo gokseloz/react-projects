@@ -83,13 +83,15 @@ p {
 }
 .bcg-black {
   background: #2c2e31;
-  display: grid;
-  place-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
 }
 .header {
   color: #fff;
   position: relative;
   overflow: hidden;
+  margin-top: 5vh;
 }
 .header::before {
   content: "";
@@ -98,26 +100,27 @@ p {
   height: 100%;
   background: linear-gradient(
     135deg,
-    transparent 30%,
+    transparent 40%,
     rgba(255, 0, 0, 0.3),
-    transparent 50%
+    transparent 60%
   );
   transform: translateX(-200%);
-  animation: headerAnim 4s ease-in-out backwards infinite;
+  animation: headerAnim 3s ease-in-out backwards infinite;
   animation-direction: alternate;
 }
+
 @keyframes headerAnim {
   0% {
-    transform: translateX(-200%);
+    transform: translateX(200%);
   }
   25% {
-    transform: translateX(10%);
-  }
-  35% {
     transform: translateX(-10%);
   }
+  50% {
+    transform: translateX(10%);
+  }
   100% {
-    transform: translateX(200%);
+    transform: translateX(-200%);
   }
 }
 
