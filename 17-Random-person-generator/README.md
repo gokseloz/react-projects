@@ -7,4 +7,5 @@
 - Error handling
 - Header with animation
 
-![cocktails](https://user-images.githubusercontent.com/72968539/132864339-e07e07dd-4c0f-4642-9787-45fbb36e283a.gif)
+![Random Person](https://user-images.githubusercontent.com/72968539/147585926-82be3418-1464-422d-8855-1875ff03bcf8.gif)
+
