@@ -7,5 +7,5 @@
 - Error handling
 - Header with animation
 
-![Random Person](https://user-images.githubusercontent.com/72968539/147585926-82be3418-1464-422d-8855-1875ff03bcf8.gif)
+![PersonGenerator](https://user-images.githubusercontent.com/72968539/147586326-7386a2e5-9d01-48ab-be30-212da27605ab.gif)
 
