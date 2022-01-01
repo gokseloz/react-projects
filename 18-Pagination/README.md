@@ -5,4 +5,4 @@
 - Different approach in formulating pagination
 - Responsive pagination buttons
 
-![PersonGenerator](https://user-images.githubusercontent.com/72968539/147586326-7386a2e5-9d01-48ab-be30-212da27605ab.gif)
+![pagination](https://user-images.githubusercontent.com/72968539/147856617-a4ee5b4e-81fe-4aa5-a17f-4cc6369b380d.gif)
