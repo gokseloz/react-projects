@@ -1,8 +1,6 @@
-## 15 React Projects
-
-- This is the repository for all of the projects in the course
-- [Course Link](https://www.youtube.com/watch?v=a_7Z7C_JCyo&ab_channel=freeCodeCamp.org)
-
+## 23 React Projects
+- The first 15 projects are inclusive, can be found [here](https://www.youtube.com/watch?v=a_7Z7C_JCyo&ab_channel=freeCodeCamp.org)
+- The other projects are exclusive
 <hr>
 
 | #   | Project                                                                                              | Live Demo                                                |
